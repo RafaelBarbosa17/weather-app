@@ -1,11 +1,11 @@
-
 import { Weather } from "./components/weather"
+import './index.css'
 
 export const App = () => {
   return (
-    <div>
+    <main>
       <Weather/>
-    </div>
+    </main>
   )
 }
 
